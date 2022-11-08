@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex: 0 0 calc(100% / 3);
+	padding: .5rem;
+}
+
+.card img {
+	width: 100%;
+}
